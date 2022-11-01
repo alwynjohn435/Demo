@@ -1,14 +1,12 @@
 import React from "react";
-import pic from './Images/dribble.jpg'
+import pic from './Images/google.png'
 export default function AllData(props){
     return(
         <>
-<div className="col-12 text-center ">
-
-<div className="card mb-3">
+<div className="card mb-3 " style={{width:"620px"}}>
   <div className="row g-0">
     <div className="col-md-4">
-      <img src={pic} className="img-fluid rounded-start" alt="..."/>
+      <img src={pic} className="img-fluid"/>
     </div>
     <div className="col-md-8">
       <div className="card-body">
@@ -19,7 +17,8 @@ export default function AllData(props){
     </div>
   </div>
 </div>
-</div>
+
+
         </>
     )
 }
